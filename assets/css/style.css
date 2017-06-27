@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif; }
+
+html {
+  font-size: 16px; }
+
+.bg-golden {
+  background-color: #EBB85D; }
+
+.bg-black {
+  background-color: #3E3F40; }
+
+.c-white {
+  color: white; }
+
+.text-center {
+  text-align: center; }
+
+.p-1rem {
+  margin: 1rem; }
+
+.container {
+  width: 95%;
+  margin: auto; }
+
+.logo {
+  padding: 1rem 0.5rem; }
+
+.menu li {
+  margin: 0.24rem;
+  padding: 0.3rem; }
+.menu li:hover {
+  background-color: #EBB85D; }
+
+/*# sourceMappingURL=style.css.map */
