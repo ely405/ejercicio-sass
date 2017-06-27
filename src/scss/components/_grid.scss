@@ -1,0 +1,16 @@
+$small-screen: 768px;
+$medium-screen: 992px;
+
+@media (min-width: $medium-screen){
+  .col{
+    display: inline-block;
+    $i: 1;
+    @while $i<=12{
+      $percentage: unquote((99/(12/$i))+'%');
+      &-m-#{$i} {
+        width: $percentage;
+      }
+      $i: $i + 1
+    }
+  }
+}

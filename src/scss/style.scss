@@ -1,9 +1,11 @@
 @import 'components/_color';
 @import 'components/_fonts';
+@import "components/_grid";
 
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 	font-family: $main-font;
 }
 html{
@@ -42,5 +44,12 @@ html{
 	}
 	li:hover{
 		background-color: $brand-color-golden;
+	}
+}
+
+//exercise
+.exercise-container{
+	a{
+		overflow-wrap: break-word;
 	}
 }
